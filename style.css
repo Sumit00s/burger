@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+    
+}
+
+/***********fixed classses************/
+
+hr{
+    width: 95%;
+    margin: auto;
+    display: block;
+    border: 10px 0px 0px 0px solid #000;
+}
+
+.green{
+    color: #4fd85a;
+}
+
+/*****Showcase header section********/
+
+header{
+    background-image: url('./img/main-burger.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.middle-box{
+    width: 700px;
+    height: 320px;
+    border: 5px solid #fff;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+}
+
+header .fa-hamburger{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.middle-box h1{
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+.middle-box h3{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+/*********testimonials Section**********/
+
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#testimonials h1{
+    text-align: center;
+    padding: 20px;
+    margin: 70px 0px 0px 70px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #000;
+    letter-spacing: 4px;
+}
+
+.teste{
+    text-align: center;
+    padding: 25px;
+    line-height: 30px;
+}
+
+.teste h3{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.teste p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.fa-hotdog,
+.fa-bacon,
+.fa-pizza-slice{
+    color: #4fd85a;
+    margin: 20px;
+}
+
+/*************menu***********/
+
+.menu-heading{
+    text-align: center;
+    padding: 20px;
+    margin: 70px 0px 50px;
+}
+
+.menu-heading h1{
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+.menu-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.menu-box .box{
+    width: 420px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0px 20px 70px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 10px #cacaca;
+}
+
+.menu-box .box:hover{
+    box-shadow: 4px 10px 10px #cacaca;
+}
+
+.box img{
+    width: 100%;
+    height: 300px;
+}
+
+.box h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*******Order section********/
+
+.order-details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 40px 0px;
+    position: relative;
+}
+
+.order-details h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px 0px 20px;
+}
+
+.order-details p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.order-sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 10px;
+}
+
+.order-sub input{
+    padding: 12px 20px;
+    margin: 5px;
+    outline: none;
+}
+
+.order-sub button{
+    padding: 10px 15px;
+    color: #4fd85a;
+    border: 3px solid #4fd85a;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.order{
+    width: 500px;
+    height: 800px;
+    background-color: #fff;
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-concierge-bell,
+.fa-truck{
+    color: #000;
+    display: block;
+    padding: 10px;
+}
+
+.order h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+/**********Menu Section************/
+
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 20px;
+    position: relative;
+}
+
+.menu-check{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.fa-check{
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #4fd85a;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+.fa-undo-alt{
+    padding: 15px;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #db1710;
+    border-radius: 10px;
+    margin: 0px 15px;
+}
+
+/**********Footer Section************/
+
+footer{
+    background-color: #333;
+    color: #fff;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+footer .links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer .links ul li{
+    margin: 0px 10px 25px;
+    list-style: none;
+}
+
+footer .links ul li a{
+    color: #fff;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram{
+    padding: 15px;
+    background-color: #4fd85a;
+    color: #fff;
+    border-radius: 25px;
+    margin: 0px 10px;
+}
+
+.social-icons{
+    margin: 20px 0px;
+}
+
+.last-headings h3{
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.fa-heart{
+    color: #4fd85a;
+}
+
+@media(max-width:500px)
+{
+    .middle-box{
+    width: 300px;
+    height: 500px;
+    border: 5px solid #fff;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    text-align: center;
+    overflow: hidden;
+   }
+
+   .testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    overflow: hidden;
+   }
+
+   #testimonials h1{
+    text-align: center;
+    padding: 0px;
+    margin: 50px auto;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #000;
+    letter-spacing: 4px;
+    overflow: hidden;
+   }
+
+   .menu-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   }
+
+   .menu-box .box{
+    width: 340px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0px auto 70px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 10px #cacaca;
+    overflow: hidden;
+   }
+
+   .order-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 10px;
+    overflow: hidden;
+   }
+
+   .order-details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 40px 0px;
+    overflow: hidden;
+}
+
+.orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+    
+.order h1{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px auto;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 60%;
+}
+
+}
+
